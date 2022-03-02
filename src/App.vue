@@ -6,6 +6,7 @@
       <h1>123</h1>
       <h1>123</h1>
       <h1>123</h1>
+      <h1>aaaa</h1>
     </div>
     <router-view />
   </div>
