@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["selling/vue"],
-};
+  extends: ['selling/vue'],
+}
