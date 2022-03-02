@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx commitlint --edit "$1"
-# node ./scripts/verify-commit-msg.js
+# node ./scripts/verify-commit-msg.js 
