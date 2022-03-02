@@ -27,10 +27,16 @@
     "cz-customizable": "^6.3.0",
     "eslint-config-selling": "^2.0.3",
     "eslint-plugin-promise": "^5.2.0",
-    "husky": "^7.0.4",
+    "husky": "^4.2.5",
     "lint-staged": "^12.3.4",
     "stylelint-config-selling": "^2.0.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "config": {
     "commitizen": {
