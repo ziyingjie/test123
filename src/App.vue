@@ -4,9 +4,6 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About </router-link>
       <h1>123</h1>
-      <h1>123</h1>
-      <h1>123</h1>
-      <h1>aaaa</h1>
     </div>
     <router-view />
   </div>
