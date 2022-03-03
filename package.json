@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "prepare": "husky install",
     "commit": "git-cz",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
     "core-js": "^3.6.5",
