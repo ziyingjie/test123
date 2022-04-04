@@ -27,11 +27,11 @@
     "conventional-changelog": "^3.1.25",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
-    "eslint-config-selling": "^2.0.0",
+    "eslint-config-selling": "^0.0.5",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
-    "stylelint-config-selling": "^2.0.0",
+    "stylelint-config-selling": "^0.0.5",
     "vue-template-compiler": "^2.6.11"
   },
   "config": {
