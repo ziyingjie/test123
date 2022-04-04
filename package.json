@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "prepare": "husky install",
-    "commit": "git-cz",
+    "commit": "git add . && cz-customizable && git push",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
@@ -16,23 +16,23 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "eslint-config-selling": "^0.0.5",
+    "eslint-plugin-promise": "^6.0.0",
+    "stylelint-config-selling": "^0.0.5",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "commitlint": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-plugin-router": "~4.5.15",
     "@vue/cli-plugin-vuex": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
     "commitizen": "^4.2.4",
-    "commitlint": "^16.2.1",
-    "commitlint-config-cz": "^0.13.3",
-    "conventional-changelog": "^3.1.25",
     "cz-conventional-changelog": "^3.3.0",
+    "vue-template-compiler": "^2.6.11",
+    "commitlint-config-cz": "^0.13.3",
     "cz-customizable": "^6.3.0",
-    "eslint-config-selling": "^0.0.5",
-    "eslint-plugin-promise": "^6.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.4",
-    "stylelint-config-selling": "^0.0.5",
-    "vue-template-compiler": "^2.6.11"
+    "conventional-changelog": "^3.1.25"
   },
   "config": {
     "commitizen": {
