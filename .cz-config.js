@@ -40,8 +40,8 @@ module.exports = {
   },
   allowCustomScopes: true,
   allowBreakingChanges: ['特性', '修复'],
-  typePrefix: '[',
-  typeSuffix: ']',
+  // typePrefix: '[',
+  // typeSuffix: ']',
   // limit subject length
   subjectLimit: 100,
 }
