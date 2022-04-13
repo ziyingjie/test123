@@ -1,7 +1,7 @@
 'use strict'
 module.exports = {
   types: [
-    { value: 'feat', name: '新增:    新的内容' },
+    { value: '新增', name: '新增:    新的内容' },
     { value: 'fix', name: '修复:    修复一个Bug' },
     { value: 'docs', name: '文档:    变更的只有文档' },
     { value: 'style', name: '格式:    空格, 分号等格式修复' },
@@ -12,11 +12,11 @@ module.exports = {
     { value: 'revert', name: '回滚:    代码回退' },
   ],
   scopes: [
-    { name: 'leetcode' },
-    { name: 'javascript' },
-    { name: 'typescript' },
-    { name: 'Vue' },
-    { name: 'node' },
+    // { name: 'leetcode' },
+    // { name: 'javascript' },
+    // { name: 'typescript' },
+    // { name: 'Vue' },
+    // { name: 'node' },
   ],
   // it needs to match the value for field type. Eg.: 'fix'
   /*  scopeOverrides: {

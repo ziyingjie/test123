@@ -5,7 +5,7 @@ module.exports = {
       2,
       'always',
       [
-        'feat',
+        '新增',
         'fix',
         'docs',
         'style',
@@ -16,9 +16,9 @@ module.exports = {
         'revert',
       ],
     ],
-    'type-empty': [2, 'never'],
+    'type-empty': [2, 'always'],
     'subject-full-stop': [0, 'never'],
-    'subject-empty': [2, 'never'],
+    'subject-empty': [2, 'always'],
     'subject-case': [0, 'never'],
   },
 }
