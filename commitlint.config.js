@@ -4,7 +4,7 @@ module.exports = {
     // 'type-enum': [
     //   2,
     //   'always',
-    //   ['feat', 'fix', 'docs', 'style', 'refactor', 'test', 'chore', 'revert'],
+    //   ['新增', '修复', '文档', '格式', 'refactor', 'test', 'chore', 'revert'],
     // ],
     // 'type-empty': [2, 'never'],
     // 'subject-full-stop': [0, 'never'],
