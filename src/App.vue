@@ -12,6 +12,7 @@
       <h1>5555</h1>
       <h1>5555</h1>
       <h1>sda</h1>
+      <h1>sda</h1>
     </div>
     <router-view />
   </div>
