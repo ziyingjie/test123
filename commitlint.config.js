@@ -16,9 +16,9 @@ module.exports = {
         'revert',
       ],
     ],
-    'type-empty': [2, 'always'],
-    'subject-full-stop': [0, 'never'],
-    'subject-empty': [2, 'always'],
-    'subject-case': [0, 'never'],
+    'type-empty': [0],
+    'subject-empty': [0],
+    'subject-full-stop': [0],
+    'subject-case': [0],
   },
 }
